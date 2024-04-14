@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{      
+    font-family: 'Roboto';
+}
+   
+.fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -1;
+    flex-grow: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+} 
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-weight: 1300;
+}
+
+h1{
+    
+    font-size: 3.8em;
+    font-weight: 800;
+}
+
+.sifrao{
+    color:rgb(222, 13, 13);
+    font-size: 2.2em;
+    font-weight: 800;
+    opacity: 0.6;
+}
+
+header span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:45px;
+    font-size: 2.5em;
+    font-weight: 600;
+
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top:50px;
+
+
+}
+
+input{
+    border-radius: 5px;
+    width: 202px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(142, 142, 203);
+    padding: 4px;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+
+
+input:hover{
+    background: rgb(64, 64, 164);
+    
+}  
+
+
+select{
+    border-radius: 5px;
+    width: 180px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(64, 64, 164);
+    padding: 4px;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+
+button{
+    background-color: rgb(64, 64, 164);
+    color: whitesmoke;
+    width: 50px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 1.6em;
+    font-weight: 600;
+    
+}
+
+
+    
